@@ -29,3 +29,24 @@ client.connect(err => {
   client.close();
 });
 
+
+Heroku app details: 
+
+heroku login -i
+enter email address
+enter password
+
+after login
+
+heroku create
+
+
+root: /snap/heroku/4048
+Creating app... done, ⬢ serene-atoll-30243
+https://serene-atoll-30243.herokuapp.com/ | https://git.heroku.com/serene-atoll-30243.git
+
+
+
+
+
+https://serene-atoll-30243.herokuapp.com/

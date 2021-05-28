@@ -41,13 +41,13 @@
             }
 
             function getMessages(){
-                $.get('http://localhost:3010/messages',(data) => {
+                $.get('https://serene-atoll-30243.herokuapp.com/messages',(data) => {
                    // console.log(data);
                    data.forEach(addMessages);
                 });
             }
             function postMessage(message){
-                $.post('http://localhost:3010/messages', message)
+                $.post('https://serene-atoll-30243.herokuapp.com/messages', message)
             }
         </script>
     </body>
