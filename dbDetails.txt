@@ -50,3 +50,39 @@ https://serene-atoll-30243.herokuapp.com/ | https://git.heroku.com/serene-atoll-
 
 
 https://serene-atoll-30243.herokuapp.com/
+https://serene-atoll-30243.herokuapp.com/
+
+
+
+git commands:
+
+go to project directory
+git config --list
+git config --global user.name "Radheshyam Kori"
+git config --global user.email "radheshyam.kori@gmail.com"
+git config --list
+sudo snap install --classic heroku
+heroku --version
+git init
+git add .
+git add .
+git commit -m "my first commit for node-chat-app"  // after changes in any file commit and push to heroku master form the project directory
+heroku login -i
+heroku create
+git push heroku master
+git status
+git commit -am "index.html modified"   // after any changes in file
+git push heroku master
+
+
+git 
+git init
+git add .
+git commit -m "my first commit"      // after changes in any file commit and push to heroku master form the project directory
+git push heroku master
+
+
+
+
+
+
